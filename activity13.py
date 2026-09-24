@@ -1,17 +1,3 @@
-import getpass
-(input('Input First Name :'))
-(input('Input Last Name :'))
-(input('Job Title :'))
-
-username = "jervy"
-password = "123"
-
-u = input("Enter your username: ")
-p = getpass.getpass("Enteryour password: ")
-if u == username and p == password:
-    print("******Access granted******")
-else:
-    print("******Access denied******")
 
 input("\n Type of Collateral to use : ")
 collateral = float(input("\n Value of Collateral : "))
